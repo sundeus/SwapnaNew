@@ -1,0 +1,103 @@
+body {
+
+    background-color: var(--light);
+}
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial;
+  }
+  
+  /* Style tab links */
+  
+  .tablink {
+    background-color: #012164;
+    color: #333333;
+    float: left;
+    border: whitesmoke;
+    outline: none;
+    cursor: pointer;
+    padding: 8px 12px;
+    font-size: 16px;
+    width: 10%;
+    margin-left: -14px;
+    /* margin-right: 20px; */
+}
+  
+  .tablink:hover {
+    background-color:#fff;
+    color: #333333;
+  }
+  /* .tablink.current{
+    background-color: #fff;
+
+  } */
+  
+  /* Style the tab content (and add height:100% for full page content) */
+  .tabcontent {
+    /* color: white; */
+    display: none;
+    padding: 67px 10px;
+    height: 100%;
+  }
+  
+  #Role {background-color: #fff;}
+  #Permissions {background-color:#fff;}
+  /* #Contact {background-color: blue;}
+  #About {background-color: orange;} */
+
+  .row{
+      background-color: #fff;
+      /* padding-bottom: 600px; */
+      
+  }
+  .top-heading{
+    color: #013164;
+    font-weight: bold;
+    font-size: 15px;
+    }
+    .form-control {
+      font-size: 15px;
+      color: gray;
+      height: 35px;
+      /* border-radius: 5px; */
+  
+  }
+.form-row {
+    font-size: 15px;
+    font-family: palatino;
+    font-weight: bold;
+
+}
+.required {
+  color: #ff0000;
+}
+.btn-secondary{
+  background-color: #fe7815;
+  border-color: orangered;
+  width: 88px;
+  height: 40px;
+  padding: 3px;
+  margin: auto;
+}
+.form-check-label {
+  margin-bottom: 0;
+  font-size: 15px;
+  font-family: palatino;
+  font-weight: bold;
+}
+
+input#myCheck {
+  height: 20px;
+  width: 35px;
+}
+th {
+  font-size: 14px;
+  font-family: Avenir-Heavy;
+  color: #012164;
+}
+.table td, .table th {
+  padding: 6px 10px;
+  vertical-align: top;
+  border-top: 1px solid #dee2e6;
+}

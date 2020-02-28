@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./dist/css/rolepermi.css">
+    <!-- <link rel="stylesheet" type="text/css" href="./dist/css/chekboxtable.css"> -->
+
+    <script type="text/javascript" src="./dist/js/rolepermi.js"></script>
+
+
+    <title>User Management</title>
+  </head>
+  <body>
+    <h6 class="top-heading py-2 ml-4">Add Roles</h6>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12">
+                <nav>
+                    <div class="nav nav-tabs nav-pills" id="nav-tab" role="tablist">
+                      <button class="nav-item nav-link active mr-2" id="nav-role-tab" data-toggle="tab" href="#nav-role" role="tab" aria-controls="nav-role" aria-selected="true">Role</button>
+                      <button class="nav-item nav-link" id="nav-permission-tab" data-toggle="tab" href="#nav-permission" role="tab" aria-controls="nav-permission" aria-selected="false">Permissions</button>
+                      <!-- <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Contact</a> -->
+                    </div>
+                  </nav>
+                  <div class="tab-content" id="nav-tabContent">
+                    <div class="tab-pane fade show active" id="nav-role" role="tabpanel" aria-labelledby="nav-role-tab">
+                        <form class="needs-validation" novalidate>
+                        <div class="form-row mx-3 pt-3">
+                          <div class="col-md-3 mb-3">
+                            <label for="validationTooltip01">Tenant ID</label>
+                            <input type="text" class="form-control" id="validationTooltip01" value="System Generated" required>
+                            <!-- <div class="valid-tooltip">
+                              Looks good!
+                            </div> -->
+                          </div>
+                       </div>
+                        <div class="form-row mx-3">
+                          <div class="col-md-3 mb-3 mr-5">
+                            <label for="validationTooltip05"><span class="required">*</span> Role Name</label>
+                            <input type="text" class="form-control" id="validationTooltip05" value="Add Role Name" required>
+                            <div class="invalid-tooltip">
+                              Please provide a valid Roles.
+                            </div>
+                          </div>
+                          <div class="col-md-6 mb-3">
+                            <label for="validationTooltip03">Description</label>
+                            <input type="text" class="form-control" id="validationTooltip03" value="Add Description" required>
+                            <div class="invalid-tooltip">
+                              Please provide a valid Info.
+                            </div>
+                          </div>
+                      
+                        </div>
+                      </form>
+                      <div class="BotBtons py-3 px-3">
+                        <button type="button" class="btn btn-outline-secondary mr-2">Cancel</button>
+                        <button type="button" class="btn btn-secondary">Next</button>
+                    </div>
+                    </div>
+                    
+                    <div class="tab-pane fade" id="nav-permission" role="tabpanel" aria-labelledby="nav-permission-tab">
+                        <form>
+                            <div class="form-row pl-3 pt-3">
+                              <div class="form-group col-md-3">
+                                <label for="inputState"><span class="required">*</span> Module</label>
+                                <select id="inputState" class="form-control">
+                                  <option selected>Select One...</option>
+                                  <option>All</option>
+                                  <option>Contract Types</option>
+                                  <option>Contracts</option>
+                                  <option>Clauses</option>
+                                  <option>Template</option>
+                                  <option>Reports</option>
+                                  <option>User Management</option>
+                              </select>
+                              </div>
+                              <div class="col-md-3 mt-4 ml-3">
+                                <button type="button" class="btn btn-secondary">Add</button>
+                              </div>
+                            </div>
+                          <div class="form-group">
+                              <div class="form-check ml-4">
+                                <input class="form-check-input" type="checkbox" id="myCheck">
+                                <label class="form-check-label pl-2" for="myCheck">
+                                  Select All
+                                </label>
+                              </div>
+                            </div>
+                          </form>
+                          <div class="table-responsive-sm ml-3">
+                            <table class="table table-striped table-bordered">
+                              <thead>
+                                <tr>
+                                  <th scope="col">Module</th>
+                                  <th scope="col">All</th>
+                                  <th scope="col">Add</th>
+                                  <th scope="col">Edit</th>
+                                  <th scope="col">View</th>
+                                  <th scope="col">Delete</th>
+                                  <th scope="col">Copy</th>
+                                  <th scope="col">Upload</th>
+                                  <th scope="col">Download</th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr>
+                                  <td>Contract Type</td>
+                                  <td><input type="checkbox" id="myCheck" onclick="myFunction()"></td>
+                                  <td><input type="checkbox" id="myCheck" onclick="myFunction()"></td>
+                                  <td><input type="checkbox" id="myCheck" onclick="myFunction()"></td>
+                                  <td><input type="checkbox" id="myCheck" onclick="myFunction()"></td>
+                                  <td><input type="checkbox" id="myCheck" onclick="myFunction()"></td>
+                                  <td><input type="checkbox" id="myCheck" onclick="myFunction()"></td>
+                                  <td><input type="checkbox" id="myCheck" onclick="myFunction()"></td>
+                                  <td><input type="checkbox" id="myCheck" onclick="myFunction()"></td>
+                                </tr>
+                                <tr>
+                                  <td>Contract-SOW</td>
+                                  <td><input type="checkbox" id="myCheck" onclick="myFunction()"></td>
+                                  <td><input type="checkbox" id="myCheck" onclick="myFunction()"></td>
+                                  <td><input type="checkbox" id="myCheck" onclick="myFunction()"></td>
+                                  <td><input type="checkbox" id="myCheck" onclick="myFunction()"></td>
+                                  <td><input type="checkbox" id="myCheck" onclick="myFunction()"></td>
+                                  <td><input type="checkbox" id="myCheck" onclick="myFunction()"></td>
+                                  <td><input type="checkbox" id="myCheck" onclick="myFunction()"></td>
+                                  <td><input type="checkbox" id="myCheck" onclick="myFunction()"></td>
+                                </tr>
+                                <tr>
+                                  <td>Conract-NDA</td>
+                                  <td><input type="checkbox" id="myCheck" onclick="myFunction()"></td>
+                                  <td><input type="checkbox" id="myCheck" onclick="myFunction()"></td>
+                                  <td><input type="checkbox" id="myCheck" onclick="myFunction()"></td>
+                                  <td><input type="checkbox" id="myCheck" onclick="myFunction()"></td>
+                                  <td><input type="checkbox" id="myCheck" onclick="myFunction()"></td>
+                                  <td><input type="checkbox" id="myCheck" onclick="myFunction()"></td>
+                                  <td><input type="checkbox" id="myCheck" onclick="myFunction()"></td>
+                                  <td><input type="checkbox" id="myCheck" onclick="myFunction()"></td>
+                                </tr>
+                                <tr>
+                                  <td>Conract-OL</td>
+                                  <td><input type="checkbox" id="myCheck" onclick="myFunction()"></td>
+                                  <td><input type="checkbox" id="myCheck" onclick="myFunction()"></td>
+                                  <td><input type="checkbox" id="myCheck" onclick="myFunction()"></td>
+                                  <td><input type="checkbox" id="myCheck" onclick="myFunction()"></td>
+                                  <td><input type="checkbox" id="myCheck" onclick="myFunction()"></td>
+                                  <td><input type="checkbox" id="myCheck" onclick="myFunction()"></td>
+                                  <td><input type="checkbox" id="myCheck" onclick="myFunction()"></td>
+                                  <td><input type="checkbox" id="myCheck" onclick="myFunction()"></td>
+                                </tr>
+                                <tr>
+                                  <td>Conract-MSA</td>
+                                    <td><input type="checkbox" id="myCheck" onclick="myFunction()"></td>
+                                    <td><input type="checkbox" id="myCheck" onclick="myFunction()"></td>
+                                    <td><input type="checkbox" id="myCheck" onclick="myFunction()"></td>
+                                    <td><input type="checkbox" id="myCheck" onclick="myFunction()"></td>
+                                    <td><input type="checkbox" id="myCheck" onclick="myFunction()"></td>
+                                    <td><input type="checkbox" id="myCheck" onclick="myFunction()"></td>
+                                    <td><input type="checkbox" id="myCheck" onclick="myFunction()"></td>
+                                    <td><input type="checkbox" id="myCheck" onclick="myFunction()"></td>
+                                </tr>
+                                <tr>
+                                  <td>Clauses</td>
+                                  <td><input type="checkbox" id="myCheck" onclick="myFunction()"></td>
+                                  <td><input type="checkbox" id="myCheck" onclick="myFunction()"></td>
+                                  <td><input type="checkbox" id="myCheck" onclick="myFunction()"></td>
+                                  <td><input type="checkbox" id="myCheck" onclick="myFunction()"></td>
+                                  <td><input type="checkbox" id="myCheck" onclick="myFunction()"></td>
+                                  <td><input type="checkbox" id="myCheck" onclick="myFunction()"></td>
+                                  <td><input type="checkbox" id="myCheck" onclick="myFunction()"></td>
+                                  <td><input type="checkbox" id="myCheck" onclick="myFunction()"></td>
+                                </tr>
+                                <tr>
+                                  <td>Template</td>
+                                  <td><input type="checkbox" id="myCheck" onclick="myFunction()"></td>
+                                  <td><input type="checkbox" id="myCheck" onclick="myFunction()"></td>
+                                  <td><input type="checkbox" id="myCheck" onclick="myFunction()"></td>
+                                  <td><input type="checkbox" id="myCheck" onclick="myFunction()"></td>
+                                  <td><input type="checkbox" id="myCheck" onclick="myFunction()"></td>
+                                  <td><input type="checkbox" id="myCheck" onclick="myFunction()"></td>
+                                  <td><input type="checkbox" id="myCheck" onclick="myFunction()"></td>
+                                  <td><input type="checkbox" id="myCheck" onclick="myFunction()"></td>
+                                </tr>
+                                <tr>
+                                  <td>Reports</td>
+                                  <td><input type="checkbox" id="myCheck" onclick="myFunction()"></td>
+                                  <td><input type="checkbox" id="myCheck" onclick="myFunction()"></td>
+                                  <td><input type="checkbox" id="myCheck" onclick="myFunction()"></td>
+                                  <td><input type="checkbox" id="myCheck" onclick="myFunction()"></td>
+                                  <td><input type="checkbox" id="myCheck" onclick="myFunction()"></td>
+                                  <td><input type="checkbox" id="myCheck" onclick="myFunction()"></td>
+                                  <td><input type="checkbox" id="myCheck" onclick="myFunction()"></td>
+                                  <td><input type="checkbox" id="myCheck" onclick="myFunction()"></td>
+                                </tr>
+                               </tbody>
+                            </table>
+                          </div>
+                    <div class="BotBtons py-3 px-3">
+                      <button type="button" class="btn btn-outline-secondary mr-2">Cancel</button>
+                      <button type="button" class="btn btn-secondary">Save</button>
+                  </div>
+                    </div>
+                   
+                    <!-- <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">...</div> -->
+                  </div>
+            
+                    </div>
+                
+                </div>
+
+        </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>

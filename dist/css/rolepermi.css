@@ -1,0 +1,151 @@
+body{
+    background-color: #eff3f7;
+}
+.tab-content{
+    background-color: #fff;
+    margin-top: -5px;
+}
+.required {
+    color: #ff0000;
+  }
+  .top-heading{
+    color: #013164;
+    font-weight: bold;
+    font-size: 15px;
+    }
+    .btn-secondary{
+        background-color: #fe7815;
+        border-color: orangered;
+        width: 88px;
+        height: 40px;
+        padding: 3px;
+        margin: auto;
+        font-size: 15px;
+      }
+    .form-control {
+        font-size: 15px;
+        color: gray;
+        height: 35px;
+        /* width: 84%; */
+        /* border-radius: 5px; */
+    
+    }
+    .form-row {
+        font-size: 15px;
+        font-family: palatino;
+        font-weight: bold;
+    
+    }
+    .form-check-label{
+        font-size: 14px;
+        font-weight: bold;
+    }
+    th {
+        font-size: 14px;
+        font-family: Avenir-Heavy;
+        color: #012164;
+        font-weight: bold;
+      }
+      td {
+        font-size: 14px;
+        font-family: Avenir-Heavy;
+        color: #333333;
+        font-weight: bold;
+      }
+      .table td{
+    
+       padding: 0px 10px 0px 10px;
+        width: 12%;
+        height: 30px;
+
+      }
+    .table th{
+        padding: 0px 10px 0px 10px;
+        width: 8%;
+        height: 40px;
+        vertical-align: middle!important;
+    }
+    input#myCheck {
+        height: 20px;
+        width: 35px;
+        margin-top: 4px;
+      }
+      .table-responsive-sm{
+          margin-right: 25%;
+          height: 22rem;
+      }
+      .needs-validation{
+          height: 30rem;
+          /* padding-bottom: 300px; */
+      }
+      /* buttons css */
+      .BotBtons{
+        border-top: 1px groove;
+        /* padding-top: 10px; */
+    
+    }
+    .btn-secondary{
+        background-color: #fe7815;
+        border-color: orangered;
+        width: 88px;
+        height: 40px;
+        padding: 3px;
+        font-size: 16px;
+    }
+    .btn-secondary:hover{
+        background-color: #fe7815;
+        border-color: #fe7815;
+    
+    }
+    
+    .btn-outline-secondary{
+        width: 88px;
+        height: 40px;
+        padding: 3px;
+        font-size: 15px;
+    }
+    /* #nav-home {background-color: #fff;}
+  #nav-profile {background-color:#fff;} */
+  /* .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: var(--gray-dark);
+    background-color: var(--white);
+}
+button#nav-profile-tab.nav-item.nav-link {
+    color: #fff;
+    background: #012164;
+} */
+/* .nav-item.nav-link{
+    color: var(--gray-dark);
+    background-color: var(--white);
+} */
+/* button.nav-item.nav-link {
+    color: #fff;
+    background: #012164;
+} */
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #333333;
+    background-color:#fff;
+    /* width: 8%;
+    height: 10%; */
+    font-size: 16px;
+    font-family: Helvetica-Bold;
+    font-weight: bold;
+    width: 119px;
+    height: 48px;
+    
+}
+.nav-tabs .nav-link {
+    border: none ;
+    background: #013164;
+    color: #fff;
+    padding-top: 6px;
+    /* width: 8%;
+    height: 6%; */
+    font-size: 16px;
+    font-family: Helvetica-Bold;
+    font-weight: 700;
+    width: 119px;
+    height: 37px;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+}

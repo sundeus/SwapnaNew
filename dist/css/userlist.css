@@ -1,0 +1,7 @@
+.custom-switch .custom-control-label::before {
+    left: -1.1rem;
+    width: 2.89rem;
+    pointer-events: all;
+    border-radius: 0.5rem;
+    left: calc(-1rem + 5px);
+}

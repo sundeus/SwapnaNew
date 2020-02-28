@@ -1,0 +1,29 @@
+/* .twopanel{
+    padding-top: 20px;
+    padding-bottom: 20px;
+} */
+.form-control {
+    font-size: 15px;
+    color: gray;
+    height: 35px;
+    /* border-radius: 5px; */
+
+}
+.custom-select{
+    font-size: 15px;
+    color: gray;
+    height: 35px;
+}
+
+/* .twopanel {
+    position: -ms-page;
+} */
+/* .container-fluid{
+    position: static;
+} */
+/* .form-control-is{
+    background: url(<i class="fa fa-calendar-o" aria-hidden="true"></i>
+);
+} */
+
+
